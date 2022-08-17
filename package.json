@@ -1,0 +1,28 @@
+{
+  "name": "fivem-source-map-support",
+  "version": "1.0.0",
+  "description": "FiveM JavaScript source maps support",
+  "main": "dist/bundle.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/STKrush/fivem-source-map-support.git",
+  "author": "STKrush <stkrush1@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "js-base64": "^3.7.2",
+    "path-browserify": "^1.0.1",
+    "source-map": "0.6.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "files": [
+    "dist",
+    "index.d.ts",
+    "LICENSE",
+    "README"
+  ]
+}

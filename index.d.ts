@@ -1,0 +1,1 @@
+export function inject(options?: { subdir?: string }): void
