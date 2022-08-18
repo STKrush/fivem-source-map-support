@@ -33,8 +33,8 @@ Please, note few things:
 
 ### Manual usage
 You can manually use package on client-side ignoring just mentioned way:
-1. Install package
-2. Get **bundle.js** from ```node_modules/fivem-source-map-support/dist```
+1. Install package or get one from [Releases](https://github.com/STKrush/fivem-source-map-support/releases/latest) page
+2. Get **bundle.js** from ```node_modules/fivem-source-map-support/dist``` or from archive (if you downloaded release)
 3. Put bundle into your **resource** folder and rename if you want to (e.g. ```fivem-sourcemap.js```)
 4. Add **client_script** in **fxmanifest.lua** on top of other scripts:
 ```lua
