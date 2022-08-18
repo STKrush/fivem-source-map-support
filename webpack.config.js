@@ -5,9 +5,8 @@ module.exports = {
 	output: {
 		path: __dirname,
 		filename: './dist/bundle.js',
-		library: {
-			type: "commonjs2"
-		}
+    	libraryTarget: 'umd',
+		globalObject: 'this'
 	},
 
 	resolve: {
