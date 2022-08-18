@@ -346,6 +346,4 @@ if (IS_CLIENT) {
 	plugin.inject()
 }
 
-if (module && module.exports) {
-	module.exports = plugin
-}
+module.exports = plugin
