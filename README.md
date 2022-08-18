@@ -1,4 +1,7 @@
 ## Information
+<sup>**Writed from scratch, but some of code based on [node-source-map-support](https://github.com/evanw/node-source-map-support)**</sup>
+<br />
+<br />
 This package provides ability to use JavaScript (e.g. TypeScript) source-maps both on server and client-side.\
 **FxDK** is supported too.\
 <br />
