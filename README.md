@@ -46,3 +46,5 @@ For some tricky annoying reason, if your resource located in sub-directory of **
 require('fivem-source-map-support').inject({ subdir: '[core]' })
 ```
 *Doesn't make sense on **client-side**.*
+## Limitations
+**Client-side** supports **only** inline source-maps. Maps that placed in separate files will not be readed.
