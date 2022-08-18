@@ -6,7 +6,7 @@ This package provides ability to use JavaScript (e.g. TypeScript) source-maps bo
 **FxDK** is supported too.\
 <br />
 > **Note**<br />
-> Package was not tested on at least a little bit large project (because i don't have one), so i would appreciate any information on how this works for you.
+> Package was not tested on any a bit large project (because i don't have one), so i would appreciate any information on how this works for you.
 
 ## Installation and usage
 Install package
