@@ -32,7 +32,7 @@ If your project builds with a module bundler (**esbuild** for e.g.) into single 
 You can manually use package on client-side ignoring inject-code way:
 1. Install package
 2. Get **bundle.js** from ```node_modules/fivem-source-map-support/dist```
-3. Put bundle into yours **resource** folder and rename if you want to (e.g. ```fivem-sourcemap.js```)
+3. Put bundle into your **resource** folder and rename if you want to (e.g. ```fivem-sourcemap.js```)
 4. Add **client_script** in **fxmanifest.lua** on top of other scripts
 ```lua
 client_script "fivem-sourcemap.js"
