@@ -21,7 +21,7 @@ const currentResourceName = GetCurrentResourceName()
 const RegEx = {
 	resourceRelativeFileName: new RegExp(`(.*)${currentResourceName}[^(\\\\|\\\/)]*[\\\\|\\\/]`),
 	sourceMappingURL: /(?:\/\/[@#][\s]*sourceMappingURL=([^\s'"]+)[\s]*$)|(?:\/\*[@#][\s]*sourceMappingURL=([^\s*'"]+)[\s]*(?:\*\/)[\s]*$)/mg,
-	sourceMappingURLBase64: /.+(data:application\/json;base64,)/m,
+	sourceMappingURLBase64: /.+(data:application\/json[^,]+base64,)/m,
 	sourceMappingURLCut: /.+(# ? +sourceMappingURL=)/m,
 	evalOrigin: /^eval at ([^(]+) \((.+):(\d+):(\d+)\)$/,
 	evalOriginRecursive: /^eval at ([^(]+) \((.+)\)$/
